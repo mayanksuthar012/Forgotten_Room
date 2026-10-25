@@ -1,0 +1,61 @@
+# ==========================================
+# Unity .gitignore (Standard Official GitHub)
+# ==========================================
+
+# Unity auto-generated cache & temp folders (DO NOT COMMIT)
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Pp]rofilerCaptures/
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+!/[Aa]ssets/**/*.meta
+
+# Large archive packages (>100MB files rejected by GitHub)
+*.unitypackage
+*.unitypackage.meta
+
+# IDE and Project files
+.vs/
+.idea/
+.gradle/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# Unity3D generated meta files
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Crash reports & builds
+sysinfo.txt
+*.apk
+*.aab
+*.app
+crashlytics-build.properties
+
+# Packed Addressables
+/[Aa]ssets/[Aa]ddressable[Aa]ssets[Dd]ata/*/*.bin*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
